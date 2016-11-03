@@ -1,0 +1,8 @@
+Создания пула на сервере с помощью удитилы asadmin:
+create-jdbc-connection-pool --datasourceclassname com.mysql.jdbc.jdbc2.optional.MysqlDataSource --restype javax.sql.DataSource --property portNumber=3306:password=library:user=library:serverName=localhost:databaseName=library
+
+Создание ресурса подключения к базе с помощью удитилы asadmin:
+create-jdbc-resource --connectionpoolid DerbyPool jdbc/DerbyPool
+
+Взято из:
+http://docs.oracle.com/cd/E18930_01/html/821-2416/ggndx.html#ggnda
