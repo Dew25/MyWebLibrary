@@ -1,0 +1,52 @@
+/*------ reader ------*/
+h1{
+    width:200px;
+    margin: 40px auto;
+}
+select#readers-list{
+   width: 250px; 
+}
+select#books-list{
+   width: 400px; 
+}
+#container{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: flex-start;
+    
+    width: 600px;
+    margin: 0 auto;
+}
+#readers,
+#books{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    margin: 0 20px;
+
+    
+}
+/*------ book ------*/
+#book-view{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    margin: 0 20px;
+}
+#book-title,
+#book-author,
+#book-isbn{
+    width: 400px;
+}
+#buttons{
+
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    width: 400px; 
+}
+#book-button-add,
+#book-button-update{
+    margin: 10px 5px;
+}
